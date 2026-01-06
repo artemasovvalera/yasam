@@ -2,8 +2,7 @@ backend:
   name: github
   repo: artemasovvalera/yasam
   branch: main
-  Ov23liQvn0C4c21Rbkmb# Вставь сюда свой Client ID:
-  # (НЕ публикуй Client Secret в коде!)
+  base_url: https://decapcms-oauth.onrender.com
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
@@ -27,5 +26,6 @@ collections:
         name: "general"
         file: "site-config.json"
         fields:
-          - { label: "Название", name: "site_name", widget: "string" }
+          - { label: "Название сайта", name: "site_name", widget: "string" }
           - { label: "Email", name: "email", widget: "string" }
+          - { label: "Телефон", name: "phone", widget: "string" }
