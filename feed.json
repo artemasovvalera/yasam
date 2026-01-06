@@ -1,0 +1,13 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Ya Sam",
+    "description": "",
+    "home_page_url": "https://artemasovvalera.github.io/yasam",
+    "feed_url": "https://artemasovvalera.github.io/yasam/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "artemasovvalera"
+    },
+    "items": [
+    ]
+}
