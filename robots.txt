@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://artemasovvalera.github.io/yasam/sitemap.xml
