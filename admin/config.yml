@@ -2,7 +2,7 @@ backend:
   name: github
   repo: artemasovvalera/yasam
   branch: main
-  # Вставь сюда свой Client ID:
+  Ov23liQvn0C4c21Rbkmb# Вставь сюда свой Client ID:
   # (НЕ публикуй Client Secret в коде!)
 
 media_folder: "images/uploads"
