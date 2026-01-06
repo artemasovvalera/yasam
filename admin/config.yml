@@ -1,0 +1,38 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "pages"
+    label: "Страницы"
+    files:
+      - label: "Главная страница"
+        name: "index"
+        file: "index.html"
+        fields:
+          - { label: "Заголовок страницы", name: "title", widget: "string" }
+          - { label: "Описание", name: "description", widget: "text" }
+          - { label: "Содержимое", name: "body", widget: "markdown" }
+
+  - name: "settings"
+    label: "Настройки сайта"
+    files:
+      - label: "Общие настройки"
+        name: "general"
+        file: "site-config.json"
+        fields:
+          - { label: "Название сайта", name: "site_name", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Телефон", name: "phone", widget: "string" }
+          - { label: "Адрес", name: "address", widget: "text" }
+
+  - name: "images"
+    label: "Изображения"
+    folder: "images/uploads"
+    create: true
+    fields:
+      - { label: "Изображение", name: "image", widget: "image" }
+      - { label: "Название", name: "title", widget: "string" }
